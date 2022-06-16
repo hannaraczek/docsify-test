@@ -2,6 +2,12 @@
 /*https://jhildenbiddle.github.io/docsify-themeable/#/customization*/
 :root {
     --content-max-width: calc(100% - 20em);
+    --sidebar-name-font-size: 28px;
+}
+
+.sidebar li > p {
+    font-weight: 600;
+    margin-left: 1em;
 }
 
 .markdown-section img {

@@ -1,4 +1,6 @@
 # Logging in and out
+
+## Logging in
 Enter the Username and Password in the provided fields, respectively. 
 
 ?> To assist with entering the correct password, check the box for `Show password`.
