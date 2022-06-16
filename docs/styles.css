@@ -1,59 +1,18 @@
 
-/*:root {*/
-/*    !*--sidebar-background: rgb(30, 155, 255);*!*/
-/*}*/
+/*https://jhildenbiddle.github.io/docsify-themeable/#/customization*/
+:root {
+    --content-max-width: calc(100% - 20em);
+}
 
-/*.sidebar {*/
-/*    background-color: var(--sidebarBackground) !important;*/
-/*}*/
-/*.sidebar>h1 a {*/
-/*    color: var(--accent);*/
-/*}*/
+.markdown-section img {
+    box-shadow: 0 5px 15px 5px rgb(0 0 0 / 30%);
+ }
 
-/*.sidebar-nav {*/
-/*    padding: 0 25px;*/
-/*}*/
+/* the dropdown arrows show up no matter what, so we remove them manually here from items that we know don't have any children */
+[title~="guide"], [title~="Glossary"]  {
+    background-image: none !important;
+}
 
-/*.sidebar-toggle {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    height: 36px;*/
-/*}*/
-
-/*.sidebar ul li a {}*/
-
-/*article h1 {*/
-/*    border-bottom: 1px solid #eee;*/
-/*    margin: 0;*/
-/*    padding: 0 0 1rem;*/
-/*}*/
-
-/*.markdown-section h3 code {*/
-/*    font-size: 1.2rem;*/
-/*}*/
-
-/*.markdown-section p.warn {*/
-/*    position: relative;*/
-/*    background-color: rgb(30, 155, 255, .1);*/
-/*    border-left: 4px solid var(--accent);*/
-/*    padding: 12px 24px 12px 3em;*/
-/*}*/
-
-/*.markdown-section p.warn:before {*/
-/*    background-color: var(--accent);*/
-/*    border-radius: 100%;*/
-/*    color: #fff;*/
-/*    content: "i";*/
-/*    font-family: "Times New Roman", serif;*/
-/*    font-size: 14px;*/
-/*    font-style: italic;*/
-/*    font-weight: 700;*/
-/*    left: 1em;*/
-/*    line-height: 20px;*/
-/*    position: absolute;*/
-/*    height: 20px;*/
-/*    width: 20px;*/
-/*    text-align: center;*/
-/*    top: 14px;*/
-/*}*/
-
+.search .clear-button.show {
+    margin-top: 10px;
+}
