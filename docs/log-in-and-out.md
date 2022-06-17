@@ -18,7 +18,6 @@ The address for the portal’s Login page will be sent to your email address, as
 Follow the prompts to reset the password to a unique set of alphanumeric and special characters, meeting the following requirements:
 
 * 8 characters minimum
-* Password must include:
 * 1 number
 * 1 uppercase letter
 * 1 lowercase letter
