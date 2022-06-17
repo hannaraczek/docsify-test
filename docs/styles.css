@@ -13,6 +13,7 @@
 .markdown-section {
     margin: 0 0 0 20px;
 }
+
 .markdown-section img:not(.emoji) {
     box-shadow: 0 5px 15px 5px rgb(0 0 0 / 30%);
  }
